@@ -1,6 +1,5 @@
-//MAP
-// iniiazling an array
-let arr = [11, 22, 33];
+//MAP //
+// initializing an array
 
 Array.prototype.myMap = function (callback) {
     // create a new array
@@ -13,6 +12,4 @@ Array.prototype.myMap = function (callback) {
     return newArray;
 }
 
-//console.log("myMap: "); 
-//arr = arr.myMap(x => x*2);
-//console.log(arr);
+
