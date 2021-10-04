@@ -1,8 +1,7 @@
-//MAP //
-// initializing an array
+//MAP 
+// without "Array.prototype.map" we create an array and commit to a comback function for each element in the array.
 
 Array.prototype.myMap = function (callback) {
-    // create a new array
     let newArray = [];
     let x = this.length;
     for (let i = 0; i < x; i++) {
