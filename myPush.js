@@ -1,4 +1,5 @@
-//push//
+//push
+//without "Array.prototype.push" with Javascript in a function called myPush will add elements to an array with elements already in it.
 Array.prototype.myPush = function (elem) {
     let elem_ = 0;
     let size = this.length;
