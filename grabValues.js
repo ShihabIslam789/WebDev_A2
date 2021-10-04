@@ -1,4 +1,5 @@
-//values //
+//values 
+// without "Object.values.()" write a function grabvalues that will take in an object and return all values of the object.
 
 function grabValues(callback)
 {
