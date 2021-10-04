@@ -1,5 +1,5 @@
 //mysome
-
+//without "Array.prototype.some" this function will take an array of elements and execute a callback function on each element.
 Array.prototype.mySome = function (callback) {
 
     let var_ = false;
