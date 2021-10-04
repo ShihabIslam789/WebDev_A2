@@ -1,5 +1,5 @@
 //myfilter
-
+//without "Array.protoype.filter" the myfilter function will commit to a callback operation on the elements in the array.
 Array.prototype.myFilter = function (callback) {
 
     let newArray = [];
