@@ -9,6 +9,6 @@ Array.prototype.myMap = function (callback) {
         newestArray.push(counter);
     }
     return newestArray;
-}
+};
 
 

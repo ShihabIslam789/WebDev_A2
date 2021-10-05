@@ -3,10 +3,10 @@
 
 function grabValues(callback)
 {
-    let objArr = []
+    let objectArray = []
     for (let values in callback)
-    {
-        objArr.push(callback[values]); // pushes the object's values into the array
+    {//for loop new values into the array
+        objectArray.push(callback[values]); 
     }
-    return objArr;
-}
+    return objectArray;
+};
