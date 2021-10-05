@@ -7,5 +7,5 @@ function grabKeys(callback)
     {//pushing(adding) keys to array
         objectArray.push(keys);  
     }
-    return objArr;
+    return objectArray;
 };
